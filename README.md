@@ -4,5 +4,5 @@ My Test Project repository for Git tutorial
 
 --> When you use this web-site, you can learn a lot of useful and most popular commands that you need for your work.
 
-This repository is built step by step in the tutorial.
+This repository is built step by step in the very helpful tutorial.
 
