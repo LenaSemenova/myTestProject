@@ -1,1 +1,1 @@
- 
+This new text file is also a test file. I am practising Git commands. 
