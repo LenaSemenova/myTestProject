@@ -1,1 +1,2 @@
 This new text file is also a test file. I am practising Git commands. 
+I would like my GitHub remote repo to be one commit ahead of my local repo.
