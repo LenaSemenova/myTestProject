@@ -6,3 +6,4 @@ My Test Project repository for Git tutorial
 
 This repository is built step by step in the very helpful tutorial.
 
+--> Another one test entry just to see how the amend-command works.
