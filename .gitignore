@@ -2,5 +2,3 @@
 my-comments.txt
 # Ignored folders
 my-ideas/
-# Ignore files with this name only in the root-folder (take a look at the my-tracked-folder, there is another one file with the name "my-root-file.txt", but it is tracked by Git!)
-/my-root-file.txt
