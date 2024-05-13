@@ -19,7 +19,8 @@ h1 {
     margin: 10px;
 }
 .big-container {
-    width: 480px;
+    max-width: 600px;
+    min-width: 250px;
     height: 480px;
     border: 6px dashed darkblue;
     box-sizing: border-box;
