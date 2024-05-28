@@ -26,13 +26,14 @@ body {
     font-size: 32px;
 }
 .header-box ul {
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 .header-box li {
-    display: inline-block;
+    float: left;
 }
 .menu-link {
     font-family: "Poetsen One", sans-serif;
@@ -156,3 +157,28 @@ i {
     height: 55px;
     z-index: 5;
 }
+li.dropdown-countries {
+    display: inline-block;
+}
+.dropdown-countries-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-countries-content a {
+    color: black;
+    padding: 16px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-countries-content a:hover {
+    transition: 0.5s;
+    text-shadow: 2px 2px 5px #1f662c;
+  }
+  .dropdown-countries:hover .dropdown-countries-content {
+    display: block;
+  }
