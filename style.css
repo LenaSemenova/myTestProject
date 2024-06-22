@@ -182,3 +182,38 @@ li.dropdown-countries {
   .dropdown-countries:hover .dropdown-countries-content {
     display: block;
   }
+  .tooltipAbout {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  .tooltipAbout .tooltipText {
+    visibility: hidden;
+    width: 200px;
+    background-color: #c1c7e7;
+    font-size: 12px;
+    color: white;
+    text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4px 12px;
+    position: absolute;
+    top: 0;
+    left: 110%;
+    z-index: 6;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .tooltipAbout .tooltipText::after {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: -4%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #c1c7e7 transparent transparent;
+  }
+  .tooltipAbout:hover .tooltipText {
+    visibility: visible;
+    opacity: 1;
+  }
